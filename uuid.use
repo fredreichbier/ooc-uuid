@@ -1,0 +1,5 @@
+Name: uuid
+Description: generate tasty uuids
+SourcePath: source
+Libs: -luuid
+Includes: uuid/uuid.h
