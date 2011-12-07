@@ -30,4 +30,8 @@ UUID: cover from Pointer { // TODO: yeah that's a bit evil
     }
 }
 
-
+generateUUID: func -> String {
+    uuid := UUID new()
+    uuid generate()
+    uuid unparse()
+}
